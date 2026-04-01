@@ -334,7 +334,6 @@ External integrations and shared services.
 | **Session Memory** | `SessionMemory/` | Session-level memory |
 | **Magic Docs** | `MagicDocs/` | Documentation generation |
 | **Auto Dream** | `autoDream/` | Background ideation |
-| **x402** | `x402/` | x402 payment protocol |
 
 ---
 
