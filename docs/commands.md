@@ -183,8 +183,6 @@ const command = {
 | `/thinkback` | `thinkback/` | Replay Claude's thinking process |
 | `/thinkback-play` | `thinkback-play/` | Animated thinking replay |
 | `/passes` | `passes/` | Multi-pass execution |
-| `/x402` | `x402/` | x402 payment protocol integration |
-
 ## Internal / Debug Commands
 
 | Command | Source | Description |

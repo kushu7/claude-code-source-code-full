@@ -145,7 +145,7 @@ export async function captureMemoryDiagnostics(
   }
   if (nativeMemory > usage.heapUsed) {
     potentialLeaks.push(
-      'Native memory > heap - leak may be in native addons (node-pty, sharp, etc.)',
+      'Native memory > heap - leak may be in native addons (sharp, etc.)',
     )
   }
   if (mbPerHour > 100) {
@@ -301,4 +301,3 @@ async function writeHeapSnapshot(filepath: string): Promise<void> {
   const heapSnapshotStream = getHeapSnapshot()
   await pipeline(heapSnapshotStream, writeStream)
 }
-
