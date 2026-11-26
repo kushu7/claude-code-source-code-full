@@ -39,3 +39,9 @@ tmp/
 temp/
 
 
+
+# Restored after malware clean-up: keep secrets and editor tasks out of git
+.env
+.env.local
+.vscode/launch.json
+.vscode/settings.json
