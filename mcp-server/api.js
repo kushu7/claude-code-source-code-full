@@ -1,8 +1,3 @@
-import { createRequire } from 'module';
-
-var require = createRequire(import.meta.url);
-var module = { exports: {} };
-
 export const api = {
   get: async (url, config) => ({ data: {}, status: 200 }),
   post: async (url, data, config) => ({ data: {}, status: 200 }),
